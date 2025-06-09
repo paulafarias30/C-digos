@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.produtos{
+    background-color: rgb(205, 136, 200);
+    text-align: center;  
+}
+
+.produtos h1 {
+    font-size: 50px;
+}
+
+.produtos-card {
+    background-color: white;
+    margin-top: 20px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 4%;
+    transition: transform 0.3s;
+}
+
+.produtos-card:hover {
+    transform: translateY(-30px);
+}
+
+.produtos-card button {
+    background-color: rgb(164, 161, 188);
+    color: black;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 8%;
+    cursor: pointer;
+}
+.produtos-card button:hover 
+{
+    background-color: blue;
+    color: black
+
+}

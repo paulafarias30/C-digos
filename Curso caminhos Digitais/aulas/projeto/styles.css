@@ -1,0 +1,93 @@
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    transition: transform 0.2s;
+    width: 400px;
+    text-align: center;
+}
+   .paisagem-roxa {
+    width: auto;
+    padding: 40px;
+   }
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.foto-de-perfil {
+    border-radius: 50%;
+    width: 150px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+
+.foto-de-perfil {
+    border-radius: 50%;
+    width: 150px;
+    border: 3px solid blue;
+    margin-bottom: 20px;
+}
+
+.role {
+    color:gray;
+    font-weight: bold;
+    font-size: 18px;
+}
+.location{
+    color:gray;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.skills span {
+    background-color: gainsboro;
+    padding: 6px;
+    border-radius: 20px;
+    margin: 6px;
+    font-size: 16px;
+}
+
+.skills {
+    margin-bottom: 30px;
+}
+
+.social-links a{
+    color: brown;
+    margin-bottom: 50px;
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: gainsboro;
+    padding: 10px 16px;
+    border-radius: 20px;
+}
+.social-link {
+    margin-bottom: 60px; 
+}
+
+
+
+
+.contact-btn{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.contact-btn:hover {
+    background-color: red;
+}
