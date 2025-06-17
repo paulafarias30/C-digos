@@ -1,43 +1,114 @@
+
 * {
     margin: 0;
-    padding: 2;
+    padding: 0;
     box-sizing: border-box;
 }
-  
-  
-  .logo {
-    height: 20px;
+  .body {
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
   }
-
+  
 
   .navbar {
-     list-style: none;
      display: flex;
-     background-color: #d60a0a;
-     padding: 12px 24px;
-     align-items: center;
      justify-content: space-between;
+     align-items:normal;
+     background-color: rgb(234, 186, 234);
+     list-style: none;
      border-bottom: 1px solid #e0e0e0;
+     text-align: center;
      position: relative;
+     width: 30px; 
+     height: 150px;
   }
   .nav-links {
-    background-color: black; 
+    background-color: #edafb8ff;
+    display: flex;
+    width: 80000px;
+    height: 150px;
+    font-size:medium;
+    text-align:flex;
 
   }
-
-  .product-catalog {
-    background-color: blueviolet;
-    position: relative;
+ 
+  .logo {
+   width: 194px;
+   height: auto;
+   
   }
 
+
+  .titulo {
+    font-size: 50px;
+  }
+
+  .subtitulo {
+    font-size: 40px;
+  }
+  .paragrafo {
+    font-size: 30px;
+  }
+  
+  .preço {
+    font-size: 30px;
+  }
+
+  .button {
+    font-size: 30px;
+    margin: 2;
+    padding: 2;
+  }
+  
   .sousplat-azul {
-    margin: 2;
-    padding: 12px 24px;
-    background-color: blue ;
+    width: 400px;
+    height: auto;
+    border-radius: 300px;
   }
 
-  .caminho-de-mesa-natalino {
-    margin: 2;
-    padding: 4;
-    align-items: center;
+  .sousplat-coração {
+    width: 400px;
+    height: auto;
+    border-radius: 300px; 
+  }
+
+  .sousplat-folhas {
+     width: 400px;
+    height: auto;
+    border-radius: 300px;
+  }
+
+  .sousplat-poa {
+     width: 400px;
+     height: auto;
+     border-radius: 300px;
+  }
+
+  .Caminho-de-mesa-natalino {
+     width: 400px;
+     height: auto;
+     border-radius: 300px;
+  }
+
+  .souplat-personalizado-verde {
+     width: 400px;
+     height: auto;
+     border-radius: 300px;    
+  }
+
+  .sousplat-personalizado-vermelho {
+     width: 400px;
+     height: auto;
+     border-radius: 300px;   
+  }
+
+  .nav-links {
+    font-display: flex;
+    background: #edafb8ff;
+    margin:  1px;
+    padding: 31px;
+    font-size: 30px;
+    justify-content: space-between;
+
   }
