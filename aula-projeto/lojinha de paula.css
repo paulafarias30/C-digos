@@ -22,7 +22,10 @@
      position: relative;
      width: 30px; 
      height: 150px;
+     margin: 20px;
+     padding: 20px 40px;
   }
+  
   .nav-links {
     background-color: #edafb8ff;
     display: flex;
@@ -30,6 +33,7 @@
     height: 150px;
     font-size:medium;
     text-align:flex;
+    justify-content: space-between;
 
   }
  
@@ -103,12 +107,3 @@
      border-radius: 300px;   
   }
 
-  .nav-links {
-    font-display: flex;
-    background: #edafb8ff;
-    margin:  1px;
-    padding: 31px;
-    font-size: 30px;
-    justify-content: space-between;
-
-  }
