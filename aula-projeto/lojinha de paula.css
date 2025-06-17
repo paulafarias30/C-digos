@@ -3,8 +3,13 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f5f7;
+  background-color:  rgb(239, 244, 239);
+--champagne-pink: #f7e1d7ff;
+--timberwolf: #dedbd2ff;
+--ash-gray: #b0c4b1ff;
+--outer-space: #4a5759ff;;
   color: #333;
+
 }
 
 /* Navbar */
@@ -13,7 +18,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #f3ecf3;
+  background-color: #f2e4f2;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
